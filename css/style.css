@@ -1,0 +1,604 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(bg.png);
+    height: 7000px;
+    width: 100%; 
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo h1{
+    color: white;
+    font-size: 202px;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.logo p{
+    color: white;
+    width: 40%;
+}
+.logo strong{
+    color: #ffc600;
+}
+
+.header_nav{
+    background-image: url(header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 680px;
+    padding-left: 46px;
+    padding-top: 1px;
+}
+.header_nav h2{
+    color: white;
+    font-size: 60px;
+}
+.nav{
+    display: flex;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    color: #ffc600;
+    margin-right: 34px;
+}
+.content{
+    position: unset;
+    background-color: #fff;
+}
+.header-text{
+    margin-left: 130px;
+}
+.text{
+    width: 40%;
+    margin-right: 20px;
+}
+
+.text_content{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.text_content p{
+    width: 600px;
+}
+.header-text b{
+    font-size: 30px;
+    color: gray;
+}
+.header-text strong{
+    font-size: 80px;
+}
+
+.game_content{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.h3{
+    font-size: 18px;
+}
+.game_content p{
+    font-size: 10px;
+}
+.app{
+    width: 25%;
+    text-align: center;
+}
+.game{
+    width: 25%;
+    text-align: center;
+}
+.content_creat{
+    width: 25%;
+    text-align: center;
+}
+
+.header_projects{
+    background-color: #fff;
+    padding-top: 30px;
+    
+}
+.header_projects h2{
+    padding-left: 78px;
+}
+.header_projects strong{
+    font-size: 50px;
+    font-weight: normal;
+}
+.big{
+    font-size: 50px;
+    font-weight: normal;
+    color: #ffc600; 
+}
+.header_projects h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+.game_option{
+    display: flex;
+}
+.game_option li{
+    list-style-type: none;
+    margin-right: 23px;
+}
+.game_option a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    
+}
+.img_game img{
+    float: left;
+    width: 25%;
+}
+.img_game{
+    padding-top: 10px;
+}
+
+.header_process{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.header_process h2{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 79px;
+}
+.header_process strong{
+    font-size: 50px;
+}
+.text_process{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 80px;
+}
+.text_process h5{
+    font-size: 16px;
+    font-weight: normal;
+}
+.text_process p{
+    font-size: 14px;
+    color: #595959;
+}
+
+.img_content{
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+.img_content1{
+    display: flex;
+    justify-content: center;
+}
+.img_text{
+    flex-direction: column;
+    width: 40%;
+
+}
+.img_text strong{
+    font-size: 50px;
+    font-weight: 100;
+}
+.img_text h2{
+    font-size: 25px;
+    font-weight: normal;
+    padding-left: 30px;
+}
+.img_text p{
+    color: #595959;
+    font-size: 14px;
+    margin-left: 34px;
+}
+.img_text h5{
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 34px;
+}
+.img_text_small strong{
+    font-size: 50px;
+    font-weight: normal;
+}
+.img_text_small2 strong{
+    font-size: 50px;
+    font-weight: normal;
+}
+.img_text_small h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+.grey{ 
+    color: #595959;
+}
+.img_text_small h5{
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 34px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.img_text_small p{
+    color: #595959;
+    font-size: 14px;
+    margin-right: 34px;
+}
+.img_text_small2 h2{
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 34px;
+}
+.img_text_small2 h5{
+    font-size: 16px;
+    font-weight: normal;
+    padding-right: 34px;
+    margin-left: 34px;
+    padding-right: 40px;
+}
+.img_text_small2 p{
+    color: #595959;
+    font-size: 14px;
+    margin-left: 34px;
+}
+.img_content2{
+    display: flex;
+    justify-content: center;
+    margin-right: 38px;
+}
+.img_content3{
+    display: flex;
+    justify-content: center;
+    margin-right: 185px;
+}
+.img_content2 img{
+    order: 2;
+}
+.img_text_small{
+    font-display: column;
+    width: 30%;
+    
+}
+.img_text_small2{
+    font-display: column;
+    width: 30%;
+    
+}
+
+.provided{
+    background-image: url(ser-bg.png);
+    background-color: #8e11ed2a;
+    height: 458px;
+    padding-top: 20px;
+    
+}
+.provided_header h2{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    padding-left: 48px;
+}
+.provided_header strong{
+    font-size: 50px;
+    font-weight: normal;
+}
+.white{
+    color: #F9C646;
+    font-weight: normal;
+}
+.provided_header_content{
+    margin-left: 55%;
+}
+.block1 {
+    display: flex;
+}
+.devel_app{
+    width: 239px;
+    color: white;
+    margin-right: 30px;
+}
+.devel_app h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.devel_app p{
+    font-size: 11px;
+}
+.devel_game{
+    width: 239px;
+    color: white;
+    
+}
+.devel_game h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.devel_game p{
+    font-size: 11px;
+}
+
+.block2{
+    display: flex;
+}
+.desing_app{
+    width: 239px;
+    color: white;
+    margin-right: 30px;
+}
+.desing_app h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.desing_app p{
+    font-size: 11px;
+}
+.desing_game{
+    width: 239px;
+    color: white;
+}
+.desing_game h5{
+    font-size: 18px;
+    font-weight: normal;
+}
+.desing_game p{
+    font-size: 11px;
+}
+.team{
+    background-color: #fff;
+    padding-bottom: 120px;
+}
+.team_header{
+    background-color: #fff;
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.team_header h2{
+    margin: 0;
+}
+.team_desc{
+    width: 47%;
+    margin-right: 20%;
+    padding-top: 18px;
+}
+.team_desc h6{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    color: #595959;
+}
+.team_desc p{
+    font-size: 14px;
+    color: #595959;
+}
+.team_header h2{
+    font-size: 30px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.team_header strong{
+    font-size: 50px;
+    font-weight: normal;
+}
+.foto{
+    padding-left: 33%;
+}
+.port_foto img{
+    margin-right: 10px;
+    width: 21%;
+}
+.port_name{
+    display: flex;
+}
+.port_name p{
+    margin-right: 70px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    width: 34%;
+    padding-left: 20px;
+}
+.last{
+    padding-right: 30px;
+}
+
+.devel{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 133px;
+}
+.devel_header{
+
+}
+.devel_header strong{
+    font-size: 50px;
+}
+.devel_header h2{
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.devel_port{
+    display: flex;
+    margin-left: 90px;
+}
+.devel_text{
+    width: 50%;
+    padding-top: 50px;
+}
+.devel_text h6{
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+}
+.devel_img{
+    margin-left: 70px;
+}
+.devel_img img{
+    
+}
+.devel_img p{
+    color: white;
+    padding-left: 10px;
+    text-align: center;
+}
+.devel_text p{
+    color: white;
+    font-size: 16px;
+}
+
+.blog{
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.blog_header_text{
+    display: inline-block;
+}
+.blog_header_text h2{
+    font-size: 30px;
+    font-weight: normal;
+    padding-left: 45px;
+}
+.blog_header_text strong{
+    color: #F9C646;
+    font-size: 50px;
+    font-weight: normal;
+}
+.blog_header{
+    display: inline-block;
+    display: flex;
+    float: right;
+    width: 60%;
+}
+.blog_content1{
+    margin-right: 90px;
+}
+.blog_content1 h4{
+    color: #F9C646;
+    margin: 0;
+    font-weight: 100;
+}
+.blog_content1 h5{
+    font-size: 13px;
+    font-weight: bold;
+}
+.blog_content1 p{
+    font-size: 12px;
+    line-height: 1.5em;
+}
+.blog_content2{
+    margin-right: 90px;
+}
+.blog_content2 h4{
+    color: #F9C646;
+    margin: 0;
+    font-weight: 100;
+}
+.blog_content2 h5{
+    font-size: 13px;
+    font-weight: bold;
+}
+.blog_content2 p{
+    font-size: 12px;
+    line-height: 1.5em;
+}
+.blog_content3{
+    margin-right: 58px;
+}
+.blog_content3 h4{
+    color: #F9C646;
+    margin: 0;
+    font-weight: 100;
+}
+.blog_content3 h5{
+    font-size: 13px;
+    font-weight: bold;
+}
+.blog_content3 p{
+    font-size: 12px;
+    line-height: 1.5em;
+}
+.blog_nav{
+    width: 25%;
+}
+.blog_nav li{
+    margin-bottom: 23px;
+}
+.blog_nav ul{
+    list-style-type: none;
+    padding-left: 130px;
+}
+.blog_nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+footer .container{
+    background-image: url(header_footer.jpg);
+    height: 654px;
+    padding-top: 20px;
+}
+.nav_footer{
+    justify-content: space-between;
+}
+.header_footer h2{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 25px;
+    margin: 0;
+    margin: 20px;
+}
+.header_footer strong{
+    font-size: 60px;
+    color: #F9C646;
+    font-weight: bold;
+}
+.nav_foot{
+    justify-content: space-between;
+}
+.nav_foot ul{
+    list-style-type: none;
+    width: 15%;
+}
+.nav_foot li{
+    margin-bottom: 15px;
+}
+.nav_foot a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+.nav_foot strong{
+    color: #F9C646;
+    font-weight: normal;
+}
+.footer_text{
+
+}
+.footer_text h1{
+    color: white;
+    font-size: 110px;
+    padding-left: 350px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+.footer_text strong{
+    color: #F9C646;
+    font-size: 110px;
+}
